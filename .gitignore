@@ -1,0 +1,21 @@
+# virtual environments
+demo/
+venv/
+.venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# jupyter
+.ipynb_checkpoints/
+
+# datasets (MOABB 預設下載到 ~/mne_data，這裡也擋掉本地副本)
+mne_data/
+results.pkl
+adaptation_curve_*.png
