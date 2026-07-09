@@ -1,0 +1,5 @@
+decoder,kappa_ceil,D_acc,nll_ceil,D_cal,binding
+EA+TS-LR,0.6957,40,0.3561,40,D_acc
+EEGNet,0.4888,0,0.4521,0,D_acc
+TTA (Tent),0.4693,0,0.503,0,D_acc
+CfC (cont.-time),0.563,20,0.4532,40,D_cal

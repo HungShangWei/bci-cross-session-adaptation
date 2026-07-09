@@ -1,0 +1,49 @@
+decoder,metric,budget,mean,lo,hi
+EA+TS-LR,kappa,0,1.0,1.0,1.0
+EA+TS-LR,kappa,5,0.9955,0.9921,0.9979
+EA+TS-LR,kappa,10,0.9987,0.9968,0.9999
+EA+TS-LR,kappa,20,1.0,1.0,1.0
+EA+TS-LR,kappa,40,1.0,1.0,1.0
+EA+TS-LR,kappa,80,1.0,1.0,1.0
+EEGNet,kappa,0,0.9363,0.9211,0.9507
+EEGNet,kappa,5,0.8761,0.8554,0.8958
+EEGNet,kappa,10,0.8841,0.8631,0.9044
+EEGNet,kappa,20,0.8884,0.8655,0.9092
+EEGNet,kappa,40,0.8769,0.8541,0.8987
+EEGNet,kappa,80,0.8681,0.8437,0.8915
+TTA (Tent),kappa,0,0.9363,0.9215,0.9504
+TTA (Tent),kappa,5,0.9353,0.9229,0.9477
+TTA (Tent),kappa,10,0.9392,0.926,0.9525
+TTA (Tent),kappa,20,0.9446,0.9306,0.9568
+TTA (Tent),kappa,40,0.9401,0.9253,0.9541
+TTA (Tent),kappa,80,0.9371,0.9198,0.9537
+CfC (cont.-time),kappa,0,0.7485,0.6711,0.8178
+CfC (cont.-time),kappa,5,0.609,0.5448,0.6713
+CfC (cont.-time),kappa,10,0.6892,0.6247,0.7487
+CfC (cont.-time),kappa,20,0.7213,0.6486,0.7848
+CfC (cont.-time),kappa,40,0.7708,0.7087,0.8261
+CfC (cont.-time),kappa,80,0.7925,0.7373,0.8415
+EA+TS-LR,nll,0,0.1024,0.0949,0.1096
+EA+TS-LR,nll,5,0.1152,0.106,0.1241
+EA+TS-LR,nll,10,0.1052,0.0977,0.1121
+EA+TS-LR,nll,20,0.1047,0.0971,0.1117
+EA+TS-LR,nll,40,0.0998,0.0922,0.1073
+EA+TS-LR,nll,80,0.0976,0.0889,0.1052
+EEGNet,nll,0,0.2176,0.1857,0.2489
+EEGNet,nll,5,0.233,0.2013,0.263
+EEGNet,nll,10,0.2302,0.1987,0.2615
+EEGNet,nll,20,0.2298,0.1959,0.2625
+EEGNet,nll,40,0.235,0.2012,0.2676
+EEGNet,nll,80,0.2345,0.2007,0.2681
+TTA (Tent),nll,0,0.2176,0.1852,0.2485
+TTA (Tent),nll,5,0.1835,0.1552,0.2108
+TTA (Tent),nll,10,0.183,0.1551,0.2097
+TTA (Tent),nll,20,0.1817,0.1534,0.21
+TTA (Tent),nll,40,0.1871,0.159,0.2148
+TTA (Tent),nll,80,0.1877,0.1592,0.2159
+CfC (cont.-time),nll,0,0.2981,0.2485,0.3512
+CfC (cont.-time),nll,5,0.6164,0.5254,0.7137
+CfC (cont.-time),nll,10,0.3902,0.3339,0.4491
+CfC (cont.-time),nll,20,0.3333,0.2768,0.3913
+CfC (cont.-time),nll,40,0.269,0.2184,0.3217
+CfC (cont.-time),nll,80,0.2452,0.196,0.2959
